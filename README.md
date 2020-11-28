@@ -3,7 +3,7 @@ Scriptrunner scripts for Jira (Server)
 
 
 ## Set Custom Field 'Epic Status' to 'Done'
-```
+```Groovy
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.issue.customfields.manager.OptionsManager
 
