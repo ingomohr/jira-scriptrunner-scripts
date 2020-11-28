@@ -11,7 +11,7 @@ import com.atlassian.jira.issue.customfields.manager.OptionsManager
 final customFieldName = "Epic Status"
 
 // New value for that field
-final newValue = "Done"
+final newValue = "Done" // "To Do" is initial value
 
 def optionsManager = ComponentAccessor.getComponent(OptionsManager)
 def customFieldManager = ComponentAccessor.customFieldManager
